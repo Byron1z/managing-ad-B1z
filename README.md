@@ -62,7 +62,7 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
 <p>
   Sign out of Client-1 VM and attempt to log in with it 6 times with a bad password. 
   
-  After 6 times, the Client-1 VM should lock you out for that user's account.
+  After 5 times, the Client-1 VM should lock you out on the 6th attempt for that user's account.
 </p>
 <p>
   <img src="https://i.imgur.com/s6jgOCa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
