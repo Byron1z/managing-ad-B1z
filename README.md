@@ -23,8 +23,8 @@ This tutorial outlines the management of users accounts in Active Directory with
 
 <h2>Configuration Steps</h2>
 
+- Configure Group Policy
 - Dealing with Account Lockouts
-- Configure Group Policy 
 - Enabling and Disabling Accounts 
 - Observing Logs
 <br />
