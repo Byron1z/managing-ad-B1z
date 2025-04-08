@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Managing Active Directory Deployed in the Cloud (Azure)</h1>
+<h1>Manage Users in Active Directory Deployed in the Cloud (Azure)</h1>
 This tutorial outlines the management of users accounts in Active Directory within Azure Virtual Machines.<br />
 
 
@@ -91,3 +91,24 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
 <p>
    <img src="https://i.imgur.com/2py9SSb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+<h3>Enabling and Disabling Accounts</h3>
+<p>
+  Disable the same account in Active Directory Users and Computers (ADUC).
+</p>
+<p>
+  <img src="https://i.imgur.com/xa2gLNW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  Attempt to login with it, observe the error message
+</p>
+<p>
+  <img src="https://i.imgur.com/AOLT2lx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  Then, re-enable the account and attempt to log in.
+</p>
+<p>
+  <img src="https://i.imgur.com/EtUx8Uk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
