@@ -35,7 +35,9 @@ This tutorial outlines the management of users accounts in Active Directory with
 <p>
   Get logged into DC-1,
   
- Pick a random user account we created previously – User: bodi-voba
+ Pick a random user account we created previously 
+ 
+ – User: "bodi-voba"
 
 Account Lockout Policy is not set in Active Directory. 
 
@@ -54,7 +56,7 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
 <p>
   Log into Client-1 as Domain Admin “Jane Doe” to force the PC to update the policy quickly using the command prompt.
 
-  use command "gpupdate /force"
+  Use the command "gpupdate /force"
 </p>
 <p>
   <img src="https://i.imgur.com/yENE6eR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -68,7 +70,7 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
   <img src="https://i.imgur.com/s6jgOCa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Observe that the account has been locked out within Active Directory Users and Computers (ADUC)
+  Observe that the account has been locked out within Active Directory Users and Computers (ADUC),
 </p>
 <p>
   <img src="https://i.imgur.com/x8n0WiM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -80,11 +82,11 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
   <img src="https://i.imgur.com/tlEkJ86.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Now the user can log into the Client-1 VM
+  Now the user can log into the Client-1 VM.
 </p>
 <br />
 <p>
-  After the failed login attempts, you could reset the Password here.
+  After the failed login attempts, you could reset the Password here,
 
   Right click the user and select "Reset Password" option. Then attempt to login with it.
 </p>
