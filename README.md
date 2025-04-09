@@ -33,7 +33,7 @@ This tutorial outlines the management of users accounts in Active Directory with
 
 <h3>Dealing with Account Lockouts</h3>
 <p>
-  Get logged into DC-1,
+  Get logged into DC-1 VM,
   
  Pick a random user account we created previously 
  
