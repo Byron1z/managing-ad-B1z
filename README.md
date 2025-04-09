@@ -114,3 +114,26 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
   <img src="https://i.imgur.com/EtUx8Uk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+<h3>Observe Logs</h3>
+<p>
+Observe the logs on the Client Machine
+  
+Log in as the user bodi.voba.
+
+Type “eventvwr.msc” in the search bar.
+</p>
+<p>
+  <img src="https://i.imgur.com/0HBLhZB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  We can’t see Log Events as a normal user. Open as Administrator, and sign in as the Domain Admin, which was Jane Doe. 
+  
+  We can still log in even though we’re signed in as someone else.
+</p>
+<p>
+  <img src="https://i.imgur.com/ffGnlta.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/qyBJTZA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  Here you can view events from Windows Logs. 
+</p>
