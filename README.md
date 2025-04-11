@@ -13,7 +13,7 @@ This tutorial outlines the management of users accounts in Active Directory with
 - Windows 10 Pro (22H2)
 - Remote Desktop
 - Group Policy Management 
-- Active Directory Users & Computers (ADUC)
+- Active Directory Users and Computers (ADUC)
 - PowerShell
 
 <h2>Operating Systems Used </h2>
