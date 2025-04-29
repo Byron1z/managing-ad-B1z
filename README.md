@@ -86,12 +86,29 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
 </p>
 <br />
 <p>
-  After the failed login attempts, you could reset the Password here,
+  After the failed login attempts, you could reset the Password for the end-user here,
 
-  Right click the user and select "Reset Password" option. Then attempt to login with it.
+  Set a temporary password for the end-user that complies with the company's password policy.
+
+  Right-click the user and select the "Reset Password" option. Then, attempt to log in with it.
 </p>
 <p>
    <img src="https://i.imgur.com/2py9SSb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  You must also be sure to check the highlighted boxes to ensure the user’s account is unlocked and enable them to set their own password rather than the temporary one. 
+</p>
+<p>
+  <img src="https://i.imgur.com/StweGon.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  To provide excelent customer service for the end-user, be sure to 
+
+  - Communicate the temporary password to the end-user through a secure channel and instruct them to change it immediately upon login, ensuring that the new password is strong and complies with the company's password policy and not to forget it.
+    
+  - Provide guidance on how to change the password using the company's self-service password reset tool if available.
+    
+  - Document the date and time of account creation for auditing purposes.
 </p>
 <br />
 <h3>Enabling and Disabling Accounts</h3>
