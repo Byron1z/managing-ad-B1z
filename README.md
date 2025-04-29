@@ -25,6 +25,7 @@ This tutorial outlines the management of users accounts in Active Directory with
 
 - Configure Group Policy
 - Dealing with Account Lockouts
+- Password Reset
 - Enabling and Disabling Accounts 
 - Observing Logs
 <br />
@@ -85,6 +86,8 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
   Now the user can log into the Client-1 VM.
 </p>
 <br />
+
+<h3>Password Reset</h3>
 <p>
   After the failed login attempts, you could reset the Password for the end-user here,
 
