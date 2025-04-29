@@ -99,7 +99,7 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
   You must also be sure to check the highlighted boxes to ensure the user’s account is unlocked and enable them to set their own password rather than the temporary one. 
 </p>
 <p>
-  <img src="https://i.imgur.com/StweGon.png" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/IwlC6Sx.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   To provide excelent customer service for the end-user, be sure to 
