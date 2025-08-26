@@ -49,10 +49,10 @@ How To Configure Account Lockout Threshold in Group Policy: https://docs.google.
 Then we'll Configure Group Policy to lock out the account after 5 attempts: 
 </p>
 <p>
-  <img src="https://i.imgur.com/2w9IPHR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://i.imgur.com/8Dw2gBK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://i.imgur.com/27Lp6G6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://i.imgur.com/gbKznvW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/2w9IPHR.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/8Dw2gBK.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/27Lp6G6.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/gbKznvW.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   Log into Client-1 as Domain Admin “Jane Doe” to force the PC to update the policy quickly using the command prompt.
@@ -60,7 +60,7 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
   Use the command "gpupdate /force"
 </p>
 <p>
-  <img src="https://i.imgur.com/yENE6eR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/yENE6eR.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   Sign out of Client-1 VM and attempt to log in with it 6 times with a bad password. 
@@ -68,19 +68,19 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
   After 5 times, the Client-1 VM should lock you out on the 6th attempt for that user's account.
 </p>
 <p>
-  <img src="https://i.imgur.com/s6jgOCa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/s6jgOCa.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   Observe that the account has been locked out within Active Directory Users and Computers (ADUC),
 </p>
 <p>
-  <img src="https://i.imgur.com/x8n0WiM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/x8n0WiM.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   Now let's unlock the account. Check "Unlock Account", then click Apply & OK.
 </p>
 <p>
-  <img src="https://i.imgur.com/tlEkJ86.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/tlEkJ86.png" height="100%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   Now the user can log into the Client-1 VM.
@@ -96,13 +96,13 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
   Right-click the user and select the "Reset Password" option. Then, attempt to log in with it.
 </p>
 <p>
-   <img src="https://i.imgur.com/2py9SSb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   <img src="https://i.imgur.com/2py9SSb.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   You must also be sure to check the highlighted boxes to ensure the user’s account is unlocked and enable them to set their own password rather than the temporary one. 
 </p>
 <p>
-  <img src="https://i.imgur.com/IwlC6Sx.png" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/IwlC6Sx.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   To provide excelent customer service for the end-user, be sure to 
@@ -119,19 +119,19 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
   Disable the same account in Active Directory Users and Computers (ADUC).
 </p>
 <p>
-  <img src="https://i.imgur.com/xa2gLNW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/xa2gLNW.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   Attempt to login with it, observe the error message
 </p>
 <p>
-  <img src="https://i.imgur.com/AOLT2lx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/AOLT2lx.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   Then, re-enable the account and attempt to log in.
 </p>
 <p>
-  <img src="https://i.imgur.com/EtUx8Uk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/EtUx8Uk.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <h3>Observe Logs</h3>
@@ -143,7 +143,7 @@ Log in as the user "bodi.voba"
 Type “eventvwr.msc” in the search bar.
 </p>
 <p>
-  <img src="https://i.imgur.com/0HBLhZB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/0HBLhZB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   We can’t see Log Events as a normal user. Open as Administrator, and sign in as the Domain Admin, Jane Doe. 
@@ -151,8 +151,8 @@ Type “eventvwr.msc” in the search bar.
   We can still log in even though we’re signed in as someone else.
 </p>
 <p>
-  <img src="https://i.imgur.com/ffGnlta.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://i.imgur.com/qyBJTZA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/ffGnlta.png" height="100%" width="90%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/qyBJTZA.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   Here you can view events from Windows Logs. 
