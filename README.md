@@ -71,7 +71,7 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
   <img src="https://i.imgur.com/s6jgOCa.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Observe that the account has been locked out within Active Directory Users and Computers (ADUC),
+  Observe that the account has been locked out within Active Directory Users and Computers (ADUC), its says "Account has been locked out"
 </p>
 <p>
   <img src="https://i.imgur.com/x8n0WiM.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
