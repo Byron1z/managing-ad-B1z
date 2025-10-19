@@ -47,7 +47,7 @@ To do so, type "**gpmc.msc**" in Run (Windows key + R or Search for "Run"), righ
 
 How To Configure Account Lockout Threshold in Group Policy: https://docs.google.com/document/d/1msUMWaPDMR1hPYxzGOlgN4KpUjnyyYEv3vvOQXkSpLQ/edit?tab=t.0 
 
-Then we'll Configure Group Policy to lock out the account after **5** attempts: 
+Then we'll Configure **Group Policy** to lock out the account after **5** attempts: 
 </p>
 <p>
   <img src="https://i.imgur.com/2w9IPHR.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
@@ -138,7 +138,7 @@ Then we'll Configure Group Policy to lock out the account after **5** attempts:
 </p>
 <p>
   
-  Then, **re-enable** the account and attempt to log in.
+  Then, **Re-enable** the account and attempt to log in.
 </p>
 <p>
   <img src="https://i.imgur.com/EtUx8Uk.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
@@ -147,17 +147,19 @@ Then we'll Configure Group Policy to lock out the account after **5** attempts:
 
 <h3>Observe Logs</h3>
 <p>
+  
 Observe the logs on the Client-1 VM,
   
-Log in as the user "**bodi.voba**"
+Log in as the *User* - "**bodi.voba**",
 
-Type “eventvwr.msc” in the search bar.
+Type “**eventvwr.msc**” in the search bar.
 </p>
 <p>
   <img src="https://i.imgur.com/0HBLhZB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  We can’t see Log Events as a normal user. Open as Administrator, and sign in as the Domain Admin, Jane Doe. 
+  
+  We can’t see Log Events as a normal user. Open as **Administrator**, and sign in as the Domain Admin, "Jane Doe". 
   
   We can still log in even though we’re signed in as someone else.
 </p>
