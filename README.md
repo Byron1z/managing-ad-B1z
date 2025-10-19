@@ -39,11 +39,11 @@ This tutorial outlines the management of users accounts in Active Directory with
   
  Pick a random user account we created previously 
  
- – *User*: **"bodi-voba"**
+ – *User*: **"BODI-VOBA"**
 
 Account Lockout Policy is not set in Active Directory. 
 
-To do so, type "gpmc.msc" in Run (Windows key + R or Search for "Run"), right-click an existing GPO and select Edit to modify it.
+To do so, type "**gpmc.msc**" in Run (Windows key + R or Search for "Run"), right-click an existing GPO, and select Edit to modify it.
 
 How To Configure Account Lockout Threshold in Group Policy: https://docs.google.com/document/d/1msUMWaPDMR1hPYxzGOlgN4KpUjnyyYEv3vvOQXkSpLQ/edit?tab=t.0 
 
@@ -56,9 +56,10 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
   <img src="https://i.imgur.com/gbKznvW.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Log into Client-1 as Domain Admin “Jane Doe” to force the PC to update the policy quickly using the command prompt.
+  
+  Log in to Client-1 as Domain Admin “Jane Doe” to force the PC to update the policy quickly using the command prompt.
 
-  Use the command "gpupdate /force"
+  Use the command `gpupdate /force`
 </p>
 <p>
   <img src="https://i.imgur.com/yENE6eR.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
@@ -72,13 +73,17 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
   <img src="https://i.imgur.com/s6jgOCa.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Observe that the account has been locked out within Active Directory Users and Computers (ADUC), its says "Account has been locked out"
+  
+  Observe that the account has been locked out within **Active Directory Users and Computers (ADUC)**, it says 
+  
+  "*This Account is currently Locked out on this Active Directory Domain Controller!*"
 </p>
 <p>
   <img src="https://i.imgur.com/x8n0WiM.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Now let's unlock the account. Check "Unlock Account", then click Apply & OK.
+  
+  Now let's unlock the account. Check "**Unlock Account**", then click **Apply** & **OK**.
 </p>
 <p>
   <img src="https://i.imgur.com/tlEkJ86.png" height="100%" width="90%" alt="Disk Sanitization Steps"/>
@@ -90,11 +95,12 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
 
 <h3>Password Reset</h3>
 <p>
-  After the failed login attempts, you could reset the Password for the end-user here,
+  
+  After the failed login attempts, you could reset the Password for the end-user here.
 
   Set a temporary password for the end-user that complies with the company's password policy.
 
-  Right-click the user and select the "Reset Password" option. Then, attempt to log in with it.
+  Right-click the user and select the "**Reset Password**" option. Then, attempt to log in with it.
 </p>
 <p>
    <img src="https://i.imgur.com/2py9SSb.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
@@ -106,40 +112,44 @@ Then we'll Configure Group Policy to lock out the account after 5 attempts:
   <img src="https://i.imgur.com/IwlC6Sx.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  To provide excelent customer service for the end-user, be sure to 
+  To provide excellent customer service for the end-user, be sure to 
 
-  - Communicate the temporary password to the end-user through a secure channel and instruct them to change it immediately upon login, ensuring that the new password is strong and complies with the company's password policy and not to forget it.
+  - Communicate the temporary password to the end-user through a secure channel and instruct them to change it immediately upon login, ensuring that the new password is strong and complies with the company's password policy, and not to forget it.
     
   - Provide guidance on how to change the password using the company's self-service password reset tool if available.
     
   - Document the date and time of account creation for auditing purposes.
 </p>
 <br />
+
 <h3>Enabling and Disabling Accounts</h3>
 <p>
-  Disable the same account in Active Directory Users and Computers (ADUC).
+  
+  Disable the same account in **Active Directory Users and Computers (ADUC)**.
 </p>
 <p>
   <img src="https://i.imgur.com/xa2gLNW.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Attempt to login with it, observe the error message
+  Attempt to log in with it, and observe the error message,
 </p>
 <p>
   <img src="https://i.imgur.com/AOLT2lx.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Then, re-enable the account and attempt to log in.
+  
+  Then, **re-enable** the account and attempt to log in.
 </p>
 <p>
   <img src="https://i.imgur.com/EtUx8Uk.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
 <h3>Observe Logs</h3>
 <p>
 Observe the logs on the Client-1 VM,
   
-Log in as the user "bodi.voba"
+Log in as the user "**bodi.voba**"
 
 Type “eventvwr.msc” in the search bar.
 </p>
