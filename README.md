@@ -18,8 +18,8 @@ This tutorial outlines the management of users accounts in Active Directory with
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server (2022)
-- Windows 10 Pro (22H2)
+- **Windows Server (2022)**
+- **Windows 10 Pro (22H2)**
 
 <h2>Configuration Steps</h2>
 
@@ -34,11 +34,12 @@ This tutorial outlines the management of users accounts in Active Directory with
 
 <h3>Dealing with Account Lockouts</h3>
 <p>
+  
   Get logged into DC-1 VM,
   
  Pick a random user account we created previously 
  
- – User: "bodi-voba"
+ – *User*: **"bodi-voba"**
 
 Account Lockout Policy is not set in Active Directory. 
 
