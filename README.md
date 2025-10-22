@@ -76,7 +76,7 @@ Then we'll Configure **Group Policy** to lock out the account after **5** attemp
   
   Observe that the account has been locked out within **Active Directory Users and Computers (ADUC)**, it says 
   
-  "*This Account is currently Locked out on this Active Directory Domain Controller!*"
+  "*This Account is currently Locked out on this Active Directory Domain Controller!* "
 </p>
 <p>
   <img src="https://i.imgur.com/x8n0WiM.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
