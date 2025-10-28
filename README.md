@@ -45,7 +45,7 @@ Account Lockout Policy is not set in Active Directory.
 
 To do so, type "**gpmc.msc**" in Run (Windows key + R or Search for "Run"), right-click an existing GPO, and select Edit to modify it.
 
-*How To Configure **Account Lockout Threshold** in **Group Policy*:* https://docs.google.com/document/d/1msUMWaPDMR1hPYxzGOlgN4KpUjnyyYEv3vvOQXkSpLQ/edit?tab=t.0 
+*How To Configure **Account Lockout Threshold** in **Group Policy***: https://docs.google.com/document/d/1msUMWaPDMR1hPYxzGOlgN4KpUjnyyYEv3vvOQXkSpLQ/edit?tab=t.0 
 
 Then we'll Configure **Group Policy** to lock out the account after **5** attempts: 
 </p>
