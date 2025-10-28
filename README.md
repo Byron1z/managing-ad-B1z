@@ -112,7 +112,7 @@ Then we'll Configure **Group Policy** to lock out the account after **5** attemp
   <img src="https://i.imgur.com/IwlC6Sx.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  To provide excellent customer service for the end-user, be sure to 
+  To provide excellent **Customer Service** for the end-user, be sure to 
 
   - Communicate the temporary password to the end-user through a secure channel and instruct them to change it immediately upon login, ensuring that the new password is strong and complies with the company's password policy, and not to forget it.
     
