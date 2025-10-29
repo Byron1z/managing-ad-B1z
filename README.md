@@ -171,3 +171,12 @@ Type “**eventvwr.msc**” in the search bar.
 <p>
   Here you can view events from Windows Logs. 
 </p>
+<br />
+
+### 📊 Results & Observations  
+- **Group Policy** provides centralized control over lockout rules.  
+- **Disabled accounts** block logins instantly.  
+- **Account lockouts** are logged in Event Viewer with detailed audit trails.  
+- **Unlocking & Resetting passwords** restore access without recreating accounts.  
+
+
