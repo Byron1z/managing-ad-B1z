@@ -83,7 +83,7 @@ Then we'll Configure **Group Policy** to lock out the account after **5** attemp
 </p>
 <p>
   
-  Now let's unlock the account. Check "**Unlock Account**", then click **Apply** & **OK**.
+  Now let's unlock the account. Check ✅️ "**Unlock Account**", then click **Apply** & **OK**.
 </p>
 <p>
   <img src="https://i.imgur.com/tlEkJ86.png" height="100%" width="90%" alt="Disk Sanitization Steps"/>
