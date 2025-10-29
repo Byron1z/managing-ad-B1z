@@ -175,8 +175,8 @@ Type “**eventvwr.msc**” in the search bar.
 
 ### 📊 Results & Observations  
 - **Group Policy** provides centralized control over lockout rules.  
-- **Disabled accounts** block logins instantly.  
 - **Account lockouts** are logged in Event Viewer with detailed audit trails.  
-- **Unlocking & Resetting passwords** restore access without recreating accounts.  
+- **Unlocking & Resetting passwords** restore access without recreating accounts.
+- **Disabled accounts** block logins instantly.    
 
 
