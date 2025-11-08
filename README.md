@@ -96,7 +96,7 @@ Then we'll Configure **Group Policy** to lock out the account after **5** attemp
 <h3>🟢 Password Reset</h3>
 <p>
   
-  After the failed login attempts, you could reset the Password for the end-user here.
+  After the failed login attempts, you could reset the Password for the end-user here in the **ADUC**.
 
   Set a temporary password for the end-user that complies with the company's password policy.
 
