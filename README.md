@@ -35,7 +35,7 @@ This tutorial outlines the management of users accounts in Active Directory with
 <h3>🔵 Dealing with Account Lockouts</h3>
 <p>
   
-  Get logged into "**DC-1**" Server VM,
+  Get logged into "**DC-1**" **Server VM**,
   
  Pick a random user account we created previously 
  
@@ -57,7 +57,7 @@ Then we'll Configure **Group Policy** to lock out the account after **5** attemp
 </p>
 <p>
   
-  Log in to Client-1 as Domain Admin “Jane Doe” to force the PC to update the policy quickly using the command prompt.
+  Log in to **Client-1** as Domain Admin “Jane Doe” to force the PC to update the policy quickly using the command prompt.
 
   Use the command: `gpupdate /force`
 </p>
