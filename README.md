@@ -59,7 +59,7 @@ Then we'll Configure **Group Policy** to lock out the account after **5** attemp
   
   Log in to Client-1 as Domain Admin “Jane Doe” to force the PC to update the policy quickly using the command prompt.
 
-  Use the command `gpupdate /force`
+  Use the command: `gpupdate /force`
 </p>
 <p>
   <img src="https://i.imgur.com/yENE6eR.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
