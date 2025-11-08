@@ -93,7 +93,7 @@ Then we'll Configure **Group Policy** to lock out the account after **5** attemp
 </p>
 <br />
 
-<h3>Password Reset</h3>
+<h3>🟢 Password Reset</h3>
 <p>
   
   After the failed login attempts, you could reset the Password for the end-user here.
