@@ -106,7 +106,8 @@ Then we'll Configure **Group Policy** to lock out the account after **5** attemp
    <img src="https://i.imgur.com/2py9SSb.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  You must also be sure to check the highlighted boxes to ensure the user’s account is unlocked and enable them to set their own password rather than the temporary one. 
+
+  You must also be sure to check✅️ the highlighted boxes to ensure the user’s account is **unlocked** and enable them to set their own password rather than the temporary one. 
 </p>
 <p>
   <img src="https://i.imgur.com/IwlC6Sx.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
