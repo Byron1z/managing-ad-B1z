@@ -141,7 +141,7 @@ Then we'll Configure **Group Policy** to lock out the account after **5** attemp
 </p>
 <p>
   
-  Then, **Re-enable** the account and attempt to log in.
+  Then, **Re-enable** the account by checking✅️ "Enable Account" and attempt to log in.
 </p>
 <p>
   <img src="https://i.imgur.com/EtUx8Uk.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
