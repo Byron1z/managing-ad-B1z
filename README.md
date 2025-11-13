@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Manage Users in Active Directory Deployed in the Cloud (Azure)</h1>
+<h1>Manage User Accounts in Active Directory deployed in the Cloud (Azure)</h1>
 This tutorial outlines the management of users accounts in Active Directory within Azure Virtual Machines.<br />
 
 
