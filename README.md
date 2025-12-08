@@ -74,7 +74,7 @@ Then we'll Configure **Group Policy** to lock out the account after **5** attemp
   <img src="https://i.imgur.com/s6jgOCa.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  In DC-1 VM,
+  Go to DC-1 VM,
   
   Observe that the account has been locked out within **Active Directory Users and Computers (ADUC)**, it says 
   
