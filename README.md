@@ -38,7 +38,7 @@ This tutorial outlines the management of users accounts in Active Directory with
   
   Get logged into "**DC-1**" **Server VM**,
   
- Pick a random user account we created previously 
+ Pick a random user account we created previously, 
  
  – *User*: **"BODI-VOBA"**
 
