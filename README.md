@@ -127,7 +127,7 @@ Then we'll Configure **Group Policy** to lock out the account after **5** attemp
 </p>
 <br />
 
-<h3>🔴 Disabling and 🟢 Re-enabling Accounts</h3>
+<h3>🔴 Disabling & 🟢 Re-enabling Accounts</h3>
 <p>
   Here is where we check if a User cannot Login into the System. 
   
