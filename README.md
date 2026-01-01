@@ -129,14 +129,21 @@ Then we'll Configure **Group Policy** to lock out the account after **5** attemp
 
 <h3>🔴 Disabling and Re-enabling Accounts</h3>
 <p>
+  Here is where we check if a User cannot Login into the System. 
   
-  Disable the same account in **Active Directory Users and Computers (ADUC)**.
+  We will check whether the User's Account Status is locked/Disabled and how to unlock/re-enable the Account.
+
+  Begin,
+</p>
+<p>
+  
+  **Disable** the same account in **Active Directory Users and Computers (ADUC)**.
 </p>
 <p>
   <img src="https://i.imgur.com/xa2gLNW.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Attempt to log in with it, and observe the error message,
+  Attempt to log in with it, and observe the error message.
 </p>
 <p>
   <img src="https://i.imgur.com/AOLT2lx.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
