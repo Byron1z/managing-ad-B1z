@@ -48,7 +48,7 @@ To do so, type `gpmc.msc` in Run (`Windows key + R` or Search for "**Run**"), ri
 
 🔹️ *How To Configure **Account Lockout Threshold** in **Group Policy*** : https://docs.google.com/document/d/1msUMWaPDMR1hPYxzGOlgN4KpUjnyyYEv3vvOQXkSpLQ/edit?tab=t.0 
 
-Then we'll Configure **Group Policy** to lock out the account after **5** attempts: 
+Then we'll Configure **Group Policy** to lock out the account after **5** bad password attempts: 
 </p>
 <p>
   <img src="https://i.imgur.com/2w9IPHR.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
