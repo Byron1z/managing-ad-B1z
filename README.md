@@ -131,7 +131,7 @@ Then we'll Configure **Group Policy** to lock out the account after **5** attemp
 <p>
   Here is where we check if a User cannot Login into the System. 
   
-  We will check whether the User's Account Status is locked/Disabled and how to unlock/re-enable the Account.
+  We will check whether the User's Account Status is locked/Disabled and how to unlock/re-enable the Account if its necessary for that particular user.
 
   Begin,
 </p>
