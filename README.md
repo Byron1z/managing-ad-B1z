@@ -25,9 +25,9 @@ This tutorial outlines the management of users accounts in Active Directory with
 <h2>Configuration Steps</h2>
 
 - Configure Group Policy
-- Dealing with Account Lockouts
-- Password Reset
-- Disabling & Re-enabling Accounts 
+- Dealing with **Account Lockouts**
+- **Password Reset**
+- **Disabling & Re-enabling Accounts** 
 - Observing Logs
 <br />
 
