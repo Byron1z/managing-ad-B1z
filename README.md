@@ -99,18 +99,22 @@ Then we'll Configure **Group Policy** to lock out the account after **5** bad pa
 <h3>🟢 Password Reset</h3>
 <p>
   
-  After the failed login attempts, you could reset the Password for the end-user here in the **ADUC**.
+  After the failed login attempts, you could reset the Password for the end-user here in the **ADUC** (**Active Directory Users and Computers**).
 
-  Set a temporary password for the end-user that complies with the company's password policy.
+  Set a **temporary password** for the end-user that complies with the company's password policy.
 
-  Right-click the user and select the "**Reset Password**" option. Then, attempt to log in with it.
+  Right-click the user and select the "**Reset Password**" option. 
+  
+  Then, attempt to log in with it.
 </p>
 <p>
    <img src="https://i.imgur.com/2py9SSb.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-  You must also be sure to check✅️ the highlighted boxes to ensure the user’s account is **unlocked** and enable them to Reset their own password rather than the temporary one. 
+  **Enable User must change password at their next logon**. 
+  
+  To do so, check✅️ the highlighted boxes to ensure the user’s account is **unlocked** and enable them to Reset their own password rather than the temporary one. 
 </p>
 <p>
   <img src="https://i.imgur.com/IwlC6Sx.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
