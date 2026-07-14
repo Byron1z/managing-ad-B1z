@@ -161,7 +161,7 @@ Then we'll configure **Group Policy** to lock out the account after **5** bad pa
 </p>
 <br />
 
-<h3>🔍 Observe Logs</h3>
+<h3>🔍 Observe Event Logs</h3>
 <p>
   
 Observe the logs on the Client-1 VM,
