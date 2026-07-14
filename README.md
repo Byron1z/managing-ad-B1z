@@ -168,7 +168,7 @@ Observe the logs on the Client-1 VM,
   
 Log in as the *User* - "**bodi.voba**",
 
-Type “**eventvwr.msc**” or "Event Viewer" in the search bar.
+Type “**eventvwr.msc**” or "**Event Viewer**" in the search bar.
 </p>
 <p>
   <img src="https://i.imgur.com/0HBLhZB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
